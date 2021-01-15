@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "description": "A series of examples illustrating race conditions in Node.js and potential solutions",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "eslint examples"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lmammino/node-js-race-conditions.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "race condition",
+    "example"
+  ],
+  "author": "Luciano Mammino",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lmammino/node-js-race-conditions/issues"
   },
@@ -22,6 +27,16 @@
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint-plugin-promise": "^4.2.1",
+    "husky": "^4.3.7",
+    "lint-staged": "^10.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
