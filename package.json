@@ -1,0 +1,27 @@
+{
+  "name": "node-js-race-conditions",
+  "version": "1.0.0",
+  "description": "A series of examples illustrating race conditions in Node.js and potential solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmammino/node-js-race-conditions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmammino/node-js-race-conditions/issues"
+  },
+  "homepage": "https://github.com/lmammino/node-js-race-conditions#readme",
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
