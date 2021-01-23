@@ -1,4 +1,4 @@
-// Utility function to simulates some delay (e.g. reading from or writing to a database).
+// Utility function to simulate some delay (e.g. reading from or writing to a database).
 // It will take from 0 to 50ms in a random fashion.
 const randomDelay = () => new Promise(resolve =>
   setTimeout(resolve, Math.random() * 100)
