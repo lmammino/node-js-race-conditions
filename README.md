@@ -8,6 +8,6 @@ Check out the code in the [`examples`](./examples) folder.
  - [`examples/race-simple-fix.js`](./examples/race-simple-fix.js): provides a simple solution using `async/await`.
  - [`examples/race-mutex.js`](./examples/race-mutex.js): provides a solution using mutexes.
 
-These examples are illustrated in the article: [Node.js race conditions](https://https://www.nodejsdesignpatterns.com/blog/node-js-race-conditions).
+These examples are illustrated in the article: [Node.js race conditions](https://www.nodejsdesignpatterns.com/blog/node-js-race-conditions).
 
-[![Node.js race coditions](./assets/node-js-race-conditions.jpg)](https://https://www.nodejsdesignpatterns.com/blog/node-js-race-conditions)
+[![Node.js race coditions](./assets/node-js-race-conditions.jpg)](https://www.nodejsdesignpatterns.com/blog/node-js-race-conditions)
