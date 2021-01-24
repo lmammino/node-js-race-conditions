@@ -28,8 +28,7 @@ async function sellGrapes () {
     const newBalance = balance + 50
     await saveBalance(newBalance)
     console.log(`sellGrapes - balance updated: ${newBalance}`)
-  })
-  mutex.catch(() => {})
+  }).catch(() => {})
   return mutex
 }
 
@@ -40,8 +39,7 @@ async function sellOlives () {
     const newBalance = balance + 50
     await saveBalance(newBalance)
     console.log(`sellOlives - balance updated: ${newBalance}`)
-  })
-  mutex.catch(() => {})
+  }).catch(() => {})
   return mutex
 }
 
